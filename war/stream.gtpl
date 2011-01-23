@@ -42,6 +42,7 @@ def parseActivityDate = { dateString ->
     <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/3col.css"/>
     <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/5col.css"/>
     <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/iphone4.css"/>
+    <link rel="stylesheet" media="all" href="/css/main.css"/>
 
     <link rel="shortcut icon" href="/favicon.ico">
 
@@ -86,7 +87,7 @@ def parseActivityDate = { dateString ->
             <% request.getAttribute('json').value.items.each { item -> 
                    def itemDate = parseActivityDate(item.pubDate) 
             %>
-                <li class="item">
+                <li class="item ${item.source}">
                     <h2 class="date-header">
                         ${itemDate.format("dd MMM yyyy")},
                         ${itemDate.format("HH:mm")}
@@ -96,9 +97,7 @@ def parseActivityDate = { dateString ->
                     </p>
                     <div class="post-footer">
                         <span class="item-humanedate" title="${itemDate?.format("yyyy-MM-dd'T'HH:mm:ss")}">...</span>
-                        
-                        <span class="item-source">from 
-                        <a href="${item.link}">${item.source}</a></span>
+                        <span class="item-source ${item.source}">from <a href="${item.link}">${item.source}</a></span>
                     </div>
                 </li>
             <% } %>
