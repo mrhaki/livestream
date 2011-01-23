@@ -56,7 +56,7 @@ def parseActivityDate = { dateString ->
 
     <header>
         <div id="header_logo">
-            <a href="/">
+            <a href="http://www.mrhaki.com">
                 <img src="http://www.mrhaki.com/images/haki-logo-black-128.png" width="64" height="64"
                     alt="Logo haki" title="Logo haki"/>
             </a>

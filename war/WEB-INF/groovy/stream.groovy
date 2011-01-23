@@ -29,11 +29,11 @@ if (headers['If-None-Match'] == etag || headers['If-Modified-Since'] == lastUpda
 }
 
 lastUpdated = now
-application.setAttribute('lastUpdated', lastUpdated)
+application.setAttribute 'lastUpdated', lastUpdated
 
-response.setHeader('ETag', etag)
-response.setDateHeader('Last-modified', lastUpdated.time)
-response.setHeader('Cache-Control', 'max-age=' + 5 * 60)
+response.setHeader 'ETag', etag
+response.setDateHeader 'Last-modified', lastUpdated.time
+response.setHeader 'Cache-Control', 'max-age=' + 5 * 60
 
 if (resultString) {
     try {
