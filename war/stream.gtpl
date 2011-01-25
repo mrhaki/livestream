@@ -144,6 +144,7 @@ def parseActivityDate = { dateString ->
                 <li><a href="http://www.pixeldam.net">Pixeldam</a></li>
                 <li><a href="http://www.x-panded.com/">Xpanded</a></li>
                 <li><a href="http://www.drbob42.com/">DrBob42</a></li>
+                <li><a href="http://www.vxcompany.com/">VX Company</a></li>
             </ul>
         </nav>
         <nav id="connect_links">
