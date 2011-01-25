@@ -88,6 +88,8 @@ def parseActivityDate = { dateString ->
             <a href="http://pipes.yahoo.com/pipes/pipe.info?_id=UtVVPkx83hGZ2wKUKX1_0w">Yahoo Pipe</a>.
             The resulting JSON is parsed by a Groovlet and
             the result is displayed on this page.
+            <br />
+            Sources are available at <a href="https://github.com/mrhaki/livestream">Github</a>.
             </p>
         
             <ul id="activities">
