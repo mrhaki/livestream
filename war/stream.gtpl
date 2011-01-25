@@ -82,7 +82,6 @@ def parseActivityDate = { dateString ->
             <a href="http://gaelyk.appspot.com/">Gaelyk</a> 0.6.1 and
             deployed on the
             <a href="http://code.google.com/appengine/">Google AppEngine platform</a>.
-            <br />
             The sources of the livestream are first processed
             with a 
             <a href="http://pipes.yahoo.com/pipes/pipe.info?_id=UtVVPkx83hGZ2wKUKX1_0w">Yahoo Pipe</a>.
