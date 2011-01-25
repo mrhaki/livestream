@@ -77,6 +77,19 @@ def parseActivityDate = { dateString ->
         <% if (request.getAttribute('error')) { %>
             ${request.getAttribute('error')}
         <% } else { %>
+            <p>
+            This livestream is built with 
+            <a href="http://gaelyk.appspot.com/">Gaelyk</a> 0.6.1 and
+            deployed on the
+            <a href="http://code.google.com/appengine/">Google AppEngine platform</a>.
+            <br />
+            The sources of the livestream are first processed
+            with a 
+            <a href="http://pipes.yahoo.com/pipes/pipe.info?_id=UtVVPkx83hGZ2wKUKX1_0w">Yahoo Pipe</a>.
+            The resulting JSON is parsed by a Groovlet and
+            the result is displayed on this page.
+            </p>
+        
             <ul id="activities">
 
             <% request.getAttribute('json').value.items.each { item -> 
