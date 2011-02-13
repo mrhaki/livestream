@@ -102,7 +102,7 @@ def parseActivityDate = { dateString ->
                         ${itemDate.format("HH:mm")}
                     </h2>
                     <p>
-                    ${item.title}
+                    <a class="item" href="${item.link}">${item.title}</a>
                     </p>
                     <div class="post-footer">
                         <span class="item-humanedate" title="${itemDate?.format("yyyy-MM-dd'T'HH:mm:ss")}">...</span>
@@ -144,7 +144,7 @@ def parseActivityDate = { dateString ->
                 <li><a href="http://www.pixeldam.net">Pixeldam</a></li>
                 <li><a href="http://www.x-panded.com/">Xpanded</a></li>
                 <li><a href="http://www.drbob42.com/">DrBob42</a></li>
-                <li><a href="http://www.vxcompany.com/">VX Company</a></li>
+                <li><a href="http://www.vxcompany.com/SoftwareOntwikkeling/Java/Paginas/default.aspx">VX Company</a></li>
             </ul>
         </nav>
         <nav id="connect_links">
