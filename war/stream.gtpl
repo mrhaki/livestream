@@ -138,6 +138,7 @@ def parseActivityDate = { dateString ->
         <nav id="friend_links">
             <h3>Link to friends</h3>
             <ul>
+                <li><a href="http://www.etsy.com/shop/BeadsByKC?ref=pr_shop">Beads by KC</a></li>
                 <li><a href="http://www.kralencreatie.nl">KralenCreatie</a></li>
                 <li><a href="http://www.nagelcreatie.nl">NagelCreatie</a></li>
                 <li><a href="http://www.tk1450.com/">The adventures of TK-1450</a></li>
