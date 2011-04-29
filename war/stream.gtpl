@@ -145,7 +145,7 @@ def parseActivityDate = { dateString ->
                 <li><a href="http://www.pixeldam.net">Pixeldam</a></li>
                 <li><a href="http://www.x-panded.com/">Xpanded</a></li>
                 <li><a href="http://www.drbob42.com/">DrBob42</a></li>
-                <li><a href="http://www.vxcompany.com/SoftwareOntwikkeling/Java/Paginas/default.aspx">VX Company</a></li>
+                <li><a href="http://www.vxcompany.com/SoftwareOntwikkeling/Java/Applicatie%20Ontwikkeling/Paginas/Groovy--Grails.aspx"><img src="http://www.mrhaki.com/images/VXCompany.jpg" width="143" height="54" alt="VX Company logo" title="VX Company" /></a></li>
             </ul>
         </nav>
         <nav id="connect_links">
